@@ -1,0 +1,34 @@
+name: 💡 Feature Request
+description: Suggest a new feature or improvement
+labels: ["enhancement"]
+body:
+  - type: checkboxes
+    attributes:
+      label: Prerequisites
+      description: |
+        Please make sure you've completed the following before submitting:
+      options:
+        - label: I have checked existing issues for similar suggestions.
+          required: true
+        - label: This is not a bug report.
+          required: true
+        - label: I understand that not all requests may be implemented.
+          required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Feature Summary
+      placeholder: |
+        Briefly summarize your feature request or enhancement idea.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      placeholder: |
+        Any other details, screenshots, or references you'd like to include.
+    validations:
+      required: false

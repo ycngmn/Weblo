@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weblo</string>
+    <string name="version">الإصدار</string>
+    <string name="about">حول</string>
+    <string name="about_this_app">حول التطبيق</string>
+    <string name="acknowledgements">شكر وتقدير</string>
+    <string name="thank_you">شكرًا لك</string>
+    <string name="return_to_app">العودة إلى التطبيق</string>
+    <string name="contact">تواصل</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="suggest_features">اقترح ميزة</string>
+    <string name="report_bugs">الإبلاغ عن أخطاء</string>
+    <string name="apache_2_0_license">رخصة Apache-2.0</string>
+    <string name="mit_license">رخصة MIT</string>
+    <string name="lgpl_2_1_license">رخصة LGPL-2.1</string>
+    <string name="license">الترخيص</string>
+
+    <string name="home">الرئيسية</string>
+    <string name="settings">الإعدادات</string>
+    <string name="settings_title">الإعدادات</string>
+    <string name="go_to_settings">فتح الإعدادات</string>
+
+    <string name="add">إضافة</string>
+    <string name="add_new">أضف جديد</string>
+    <string name="cancel">إلغاء</string>
+    <string name="confirm">تأكيد</string>
+    <string name="delete">حذف</string>
+    <string name="dismiss">إغلاق</string>
+    <string name="inspect">تفقد</string>
+    <string name="launch">تشغيل</string>
+    <string name="move">نقل</string>
+    <string name="proceed">المتابعة</string>
+    <string name="relaunch">إعادة تشغيل</string>
+    <string name="restore">استعادة</string>
+    <string name="save">حفظ</string>
+    <string name="save_new">حفظ جديد</string>
+    <string name="clone">استنساخ</string>
+    <string name="try_again">حاول مرة أخرى</string>
+    <string name="continue_">متابعة</string>
+    <string name="close">إغلاق</string>
+
+    <string name="add_weblo">إضافة Weblo</string>
+    <string name="search_weblos">بحث في Weblos</string>
+    <string name="open_weblo">افتح %1$s</string>
+    <string name="clone_weblo_confirm">هل أنت متأكد أنك تريد استنساخ هذا Weblo؟ بيانات التصفح الخاصة بك لن تُنسخ.</string>
+    <string name="delete_weblo_confirm">هل أنت متأكد أنك تريد حذف هذا Weblo؟ لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="reset_weblo_confirm">هل أنت متأكد أنك تريد إعادة ضبط هذا Weblo إلى الإعداد الافتراضي؟</string>
+    <string name="weblo_deleted">تم حذف Weblo</string>
+    <string name="reset_successful">تمت إعادة الضبط بنجاح</string>
+    <string name="reset_to_default">إعادة إلى الإعداد الافتراضي</string>
+    <string name="reset_to_default_desc">أعد هذا Weblo إلى الإعداد الافتراضي</string>
+    <string name="delete_this_weblo">حذف هذا Weblo</string>
+    <string name="delete_this_weblo_desc">إزالته من التطبيق</string>
+    <string name="weblo_redirect">%1$s (إعادة توجيه)</string>
+    <string name="exclude_weblos">استبعاد Weblos</string>
+    <string name="delete_selected_weblos_warning">هل أنت متأكد أنك تريد حذف Weblos المحددة؟ لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="move_selected_weblos_warning">هل أنت متأكد أنك تريد نقل Weblos المحددة إلى %1$s؟</string>
+    <string name="confirm_add_weblos">هل أنت متأكد أنك تريد إضافة Weblos التالية إلى %1$s؟</string>
+    <string name="default_weblo_desc">هذا هو Weblo الافتراضي الذي ستُشير إليه Weblos المستقبلية لإعداداتها. كل ملف شخصي يملك واحدًا فريدًا.</string>
+
+    <string name="import_weblo">استيراد</string>
+    <string name="import_overwrite_warning">هل أنت متأكد أنك تريد استيراد هذا Weblo؟ ستُستبدل جميع إعداداتك. بيانات التصفح لن تتأثر.</string>
+    <string name="import_url_mismatch">رابط الملف المستورد لا يتطابق مع Weblo الحالي. هل تود إضافته كـ Weblo جديد بدلاً من ذلك؟</string>
+    <string name="import_successful">تم الاستيراد بنجاح</string>
+    <string name="export_successful">تم التصدير بنجاح</string>
+    <string name="save_file_name">%1$s_save.weblo</string>
+    <string name="bulk_add">إضافة بالجملة</string>
+    <string name="quick_add">إضافة سريعة</string>
+
+    <string name="ad_free_privacy">تصفح خالي من الإعلانات مع خصوصية أولًا</string>
+    <string name="incognito">التصفح المتخفي</string>
+    <string name="incognito_desc">إنشاء جلسة جديدة عند كل تشغيل. الجلسة الافتراضية محفوظة.</string>
+    <string name="fullscreen">ملء الشاشة</string>
+    <string name="fullscreen_desc">إخفاء أشرطة النظام لتجربة أكثر انغماسًا</string>
+    <string name="force_dark">فرض الوضع الداكن</string>
+    <string name="force_dark_desc">استخدم هذا إذا لم تدعم الصفحة الوضع الداكن افتراضيًا</string>
+    <string name="pinch_to_zoom">التكبير بإيماءة القرص</string>
+    <string name="pinch_to_zoom_desc">قم بالتكبير والتصغير بإيماءة القرص</string>
+    <string name="persistent_loading">عرض شاشة التحميل المستمر</string>
+    <string name="persistent_loading_desc">ابق شاشة التحميل ظاهرة حتى يكتمل تحميل محتويات الصفحة</string>
+    <string name="dynamic_loading">التحميل الديناميكي</string>
+    <string name="dynamic_loading_desc">عند إعادة زيارة نفس الرابط، تُحمّل النسخة المحفوظة بدلًا من طلبها من الإنترنت</string>
+    <string name="background_playback">تشغيل في الخلفية</string>
+    <string name="background_playback_desc">استمر في تشغيل الوسائط حتى عندما يكون التطبيق في الخلفية</string>
+    <string name="remove_from_recents">إزالة من التطبيقات الأخيرة</string>
+    <string name="remove_from_recents_desc">الخروج بزر العودة يُزيل Weblo من قائمة التطبيقات الأخيرة</string>
+    <string name="open_in_new">فتح في نافذة جديدة</string>
+    <string name="open_in_new_desc">إنشاء نافذة جديدة لفتح الروابط الخارجية</string>
+    <string name="data_saver">موفر البيانات</string>
+    <string name="data_saver_desc">لن تُحمّل موارد الوسائط (صور، صوت، فيديو)</string>
+    <string name="force_landscape">إجبار الوضع الأفقي</string>
+    <string name="force_landscape_desc">التنقل في وضع أفقي</string>
+
+    <string name="authenticate">التحقق</string>
+    <string name="auth_confirm_identity">يرجى تأكيد هويتك للمتابعة</string>
+    <string name="auth_not_available">المصادقة غير متاحة</string>
+    <string name="auth_failed">فشل التحقق</string>
+    <string name="lock_weblo">قفل Weblo</string>
+    <string name="lock_weblo_desc">يتطلب المصادقة للدخول</string>
+    <string name="screen_lock_required">يرجى إعداد قفل الشاشة للمتابعة</string>
+
+    <string name="categories">الفئات</string>
+    <string name="categories_desc">استخدم الفئات لتنظيم مواقعك. يمكنك تجميع الأخبار، أدوات العمل، الترفيه، أو مصادر الدراسة لتسهيل العثور عليها وإدارتها.</string>
+    <string name="categories_manage">إدارة الفئات</string>
+    <string name="category_all">الكل</string>
+    <string name="category_ai">الذكاء الاصطناعي</string>
+    <string name="category_news">الأخبار</string>
+    <string name="category_social">الاجتماعي</string>
+    <string name="category_shopping">التسوق</string>
+    <string name="category_streaming">البث</string>
+    <string name="category_productivity">الإنتاجية</string>
+    <string name="category_uncategorized">غير مصنّف</string>
+    <string name="new_category">فئة جديدة</string>
+    <string name="select_category_add">اختر فئة للإضافة إليها:</string>
+    <string name="select_category_move">الرجاء اختيار الفئة المطلوبة:</string>
+    <string name="select_destination">الرجاء اختيار الفئة الوجهة:</string>
+    <string name="delete_categories_confirm">هل أنت متأكد أنك تريد حذف الفئات المحددة؟ سيتم نقل عناصر Weblo المرتبطة إلى "غير مصنّف".</string>
+    <string name="delete_categories_permanent">هل أنت متأكد أنك تريد حذف الفئات المحددة؟ سيتم أيضًا حذف عناصر Weblo المرتبطة.</string>
+    <string name="delete_categories_warning_move">حذف هذه الفئات سينقل عناصر Weblo المرتبطة إلى "غير مصنّف". هل أنت متأكد؟</string>
+    <string name="delete_categories_warning_delete">حذف هذه الفئات سيؤدي كذلك إلى حذف عناصر Weblo المرتبطة. هل أنت متأكد؟</string>
+    <string name="category_empty">لا توجد عناصر Weblo في هذه الفئة</string>
+    <string name="no_weblos_in_category">لا توجد عناصر Weblo في هذه الفئة</string>
+    <string name="move_to">نقل إلى</string>
+    <string name="moved_to">نُقل إلى %1$s</string>
+    <string name="moved_weblos">نُقل %1$d عنصر Weblo</string>
+    <string name="deleted_weblos">حُذف %1$d عنصر Weblo</string>
+
+    <string name="profiles">الملفات الشخصية</string>
+    <string name="profiles_desc">الملفات الشخصية تتيح لك مساحات منفصلة للتصفح؛ كل ملف يحتفظ بسجل، تسجيلات الدخول، وإعداداته الخاصة—مفيد للفصل بين العمل، الشخصي، أو الاختبار.</string>
+    <string name="profiles_manage">إدارة الملفات الشخصية</string>
+    <string name="new_profile">ملف شخصي جديد</string>
+    <string name="default_config">الإعداد الافتراضي</string>
+    <string name="default_config_desc">جميع عناصر Weblo الجديدة ستستخدم هذا الإعداد</string>
+    <string name="delete_profile_warning">هل أنت متأكد أنك تريد حذف هذا الملف الشخصي؟ هذا الإجراء لا يمكن التراجع عنه.</string>
+    <string name="switched_to">تم التبديل إلى %1$s</string>
+    <string name="profile_switch">تبديل</string>
+
+    <string name="appearance">المظهر</string>
+    <string name="appearance_desc">غير سمة وألوان التطبيق</string>
+    <string name="appearance_customize">تخصيص شكل التطبيق</string>
+    <string name="system">النظام</string>
+    <string name="day">نهاري</string>
+    <string name="night">ليلي</string>
+    <string name="mono">أحادي</string>
+    <string name="tonal">تدرّجي</string>
+    <string name="neutral">محايد</string>
+    <string name="fidelity">وضوح</string>
+    <string name="express">معبر</string>
+    <string name="vibrant">حيوي</string>
+    <string name="rainbow">ألوان قوس قزح</string>
+    <string name="fruit">ألوان الفاكهة</string>
+
+    <string name="language">اللغة</string>
+    <string name="language_choose">اختر لغتك</string>
+    <string name="select_language">اختر اللغة</string>
+    <string name="choose_your_language">اختر لغتك</string>
+    <string name="lang_en">🇬🇧 الإنجليزية</string>
+    <string name="lang_fr">🇫🇷 الفرنسية</string>
+    <string name="lang_es">🇪🇸 الإسبانية</string>
+    <string name="lang_de">🇩🇪 الألمانية</string>
+    <string name="lang_it">🇮🇹 الإيطالية</string>
+    <string name="lang_pt">🇧🇷 البرتغالية</string>
+    <string name="lang_ru">🇷🇺 الروسية</string>
+    <string name="lang_zh">🇨🇳 الصينية (مبسّطة)</string>
+    <string name="lang_zh_tw">🇹🇼 الصينية (تقليدية)</string>
+    <string name="lang_ja">🇯🇵 اليابانية</string>
+    <string name="lang_ko">🇰🇷 الكورية</string>
+    <string name="lang_ar">🇸🇦 العربية</string>
+    <string name="lang_hi">🇮🇳 الهندية</string>
+    <string name="lang_tr">🇹🇷 التركية</string>
+    <string name="lang_nl">🇳🇱 الهولندية</string>
+    <string name="lang_pl">🇵🇱 البولندية</string>
+    <string name="lang_sv">🇸🇪 السويدية</string>
+    <string name="lang_el">🇬🇷 اليونانية</string>
+    <string name="lang_he">🇮🇱 العبرية</string>
+    <string name="lang_id">🇮🇩 الإندونيسية</string>
+    <string name="lang_th">🇹🇭 التايلاندية</string>
+    <string name="lang_vi">🇻🇳 الفيتنامية</string>
+    <string name="lang_bn">🇧🇩 البنغالية</string>
+
+    <string name="adblocker">حاجب الإعلانات</string>
+    <string name="adblocker_desc">حاجب الإعلانات يقوم بفلترة ومنع العناصر غير المرغوب فيها — مثل الإعلانات، النوافذ المنبثقة، والمتتبعات — من التحميل على المواقع. يدعم هذا التطبيق قواعد فلترة متقدمة، بما في ذلك أنماط النطاقات، المسارات، أحرف البدل، ومحددات CSS، مما يمنحك تحكمًا دقيقًا فيما يظهر في متصفحك.</string>
+    <string name="adblocker_manage">إدارة الإعلانات ومرشحات الخصوصية</string>
+    <string name="content_blocker">حاجب المحتوى</string>
+    <string name="content_blocker_desc">يعمل حاجب المحتوى عن طريق التعرف على عناصر الصفحة عبر سمات CSS ومنعها من التحميل أو العرض. يمكّنك ذلك من تخصيص المواقع وإزالة المشتتات.</string>
+    <string name="new_filter">فلتر جديد</string>
+    <string name="add_filter">إضافة فلتر</string>
+    <string name="edit_filter">تعديل الفلتر</string>
+    <string name="filter_url">رابط الفلتر</string>
+    <string name="no_filters">لا توجد فلاتر</string>
+    <string name="no_filters_found">لا توجد فلاتر</string>
+    <string name="rules_count">%1$d قواعد</string>
+    <string name="css_selector_help">ألصق محددات CSS للعناصر التي تريد حظرها، كل سطر على حدة. على سبيل المثال:\n\n.ad-example\nfooter .newsletter-signup\niframe[src*="ads"]</string>
+    <string name="refresh_filter_prompt">يرجى محاولة تحديث الفلتر</string>
+
+    <string name="page_keeper">حافظ الصفحة</string>
+    <string name="page_keeper_desc">يقوم حافظ الصفحة بتخزين نسخة من صفحة الويب مباشرة على جهازك، ما يضمن الوصول إلى المحتوى الثابت حتى بدون اتصال بالإنترنت.</string>
+    <string name="no_saved_pages">لا توجد صفحات محفوظة بعد</string>
+    <string name="edit_saved_page">تعديل الصفحة المحفوظة</string>
+
+    <string name="observer">المراقب</string>
+    <string name="observer_desc">المراقب يتتبع عناصر الصفحة عبر سمات CSS ويُخطرك بالتغييرات، ويفحص تلقائيًا تقريبًا كل 15 دقيقة.</string>
+    <string name="add_observer">إضافة مراقب</string>
+    <string name="edit_observer">تعديل المراقب</string>
+    <string name="nothing_to_observe">لا شيء للمراقبة</string>
+    <string name="notify_on_fail">الإخطار عند الفشل</string>
+    <string name="notify_on_fail_desc">ستتلقى إشعارًا عند حدوث أي خطأ (شبكة، مهلة، غير موجود، إلخ) أثناء مراقبة العنصر.</string>
+    <string name="auto_disable_on_fail">تعطيل تلقائي عند الفشل</string>
+    <string name="auto_disable_on_fail_desc">يقوم بإيقاف المحدد تلقائيًا عند فشل المراقب في إيجاد العنصر.</string>
+    <string name="poll_interval">فاصل التحقق</string>
+
+    <string name="cookies">ملفات تعريف الارتباط</string>
+    <string name="cookie_manager">مدير ملفات تعريف الارتباط</string>
+    <string name="cookie_manager_desc">تحكم في ملفات تعريف الارتباط لتحافظ على خصوصيتك وكيف تتذكرك المواقع — لكن انتبه، حذفها قد يؤدي إلى تسجيل خروجك أو إعادة إعدادات الموقع.</string>
+    <string name="cookie_inspector">مفتش ملفات تعريف الارتباط</string>
+    <string name="inspect_cookies">تفحص ملفات تعريف الارتباط لهذه الصفحة</string>
+    <string name="add_cookies">أضف ملفات تعريف الارتباط</string>
+    <string name="no_cookies_found">لم تُعثر أي ملفات تعريف ارتباط</string>
+    <string name="no_cookies_yet">لا توجد ملفات تعريف ارتباط حتى الآن :)</string>
+    <string name="expires">انتهاء الصلاحية</string>
+    <string name="same_site_policy">سياسة نفس الموقع</string>
+
+    <string name="network">الشبكة</string>
+    <string name="network_desc">عرّف رؤوس HTTP مخصصة تُطبق تلقائيًا عند تحميل الصفحة للتخصيص المتقدم، المصادقة، وتصحيح الأخطاء.</string>
+    <string name="network_inspector">مفتش الشبكة</string>
+    <string name="network_inspector_desc">شاهد ما تقوم الصفحة بتحميله خلف الكواليس.</string>
+    <string name="network_inspector_empty">لم يتم العثور على طلبات مطابقة</string>
+    <string name="network_key">المفتاح</string>
+    <string name="network_value">القيمة</string>
+    <string name="request_headers">رؤوس الطلب:</string>
+    <string name="response">الاستجابة</string>
+    <string name="response_headers">رؤوس الاستجابة:</string>
+    <string name="mime_type">نوع MIME</string>
+    <string name="encoding">الترميز</string>
+    <string name="reason_phrase">عبارة السبب</string>
+    <string name="page_size_kb">%1$d كيلوبايت</string>
+    <string name="na">غير متاح</string>
+    <string name="show_details">عرض التفاصيل</string>
+    <string name="main_frame">الإطار الرئيسي</string>
+    <string name="gesture">إيماءة</string>
+    <string name="redirect">إعادة توجيه</string>
+
+    <string name="user_agents">وكلاء المستخدم</string>
+    <string name="user_agents_desc">وكيل المستخدم هو سلسلة نصية يرسلها متصفحك إلى المواقع لتحديد متصفحك، نظام التشغيل، والجهاز. تستخدم المواقع هذا لتكييف التخطيط والميزات أو المحتوى. تغيير وكيل المستخدم يساعد في اختبار سلوك المواقع، تجاوز القيود، أو عرض النسخ المحمولة/المكتبية.</string>
+    <string name="userAgent_desc">سلاسل وكيل المستخدم تخبر المواقع بنوع المتصفح والجهاز الذي تستخدمه. غيّرها لاختبار سلوك المواقع.</string>
+    <string name="select_a_user_agent">اختر وكيل المستخدم</string>
+    <string name="enter_user_agent">أدخل وكيل المستخدم</string>
+    <string name="default_">افتراضي</string>
+    <string name="ios">نظام iOS</string>
+    <string name="desktop">سطح المكتب</string>
+    <string name="custom">مخصص</string>
+
+    <string name="userscripts">سكريبتات المستخدم</string>
+    <string name="userscripts_desc">تمكنك سكربتات المستخدم من تشغيل جافاسكريبت مخصص على المواقع لتعديل سلوكها أو مظهرها. يمكنك من خلالها أتمتة مهام، إضافة ميزات جديدة، أو تخصيص تجربة التصفح.</string>
+    <string name="enable_userscripts">تفعيل سكربتات المستخدم</string>
+    <string name="allow_userscripts">السماح بسكربتات المستخدم</string>
+    <string name="add_userscripts">أضف سكربتات المستخدم</string>
+    <string name="edit_userscripts">تعديل سكربتات المستخدم</string>
+    <string name="no_scripts_found">لم تُعثر أي سكربتات</string>
+    <string name="new_script">سكربت جديد</string>
+    <string name="javascript">JavaScript</string>
+    <string name="userscripts_warning">هذه ميزة قوية لكنها محفوفة بالمخاطر. استخدام أكواد غير معروفة قد يعرض حسابك ويسمح بسرقة بياناتك الشخصية.&#10;&#10;هل أنت متأكد أنك تريد تفعيل سكربتات المستخدم؟</string>
+    <string name="agree_risks">أفهم المخاطر وأقبلها</string>
+
+    <string name="client">عميل</string>
+    <string name="console">وحدة التحكم</string>
+    <string name="selector">محدد</string>
+    <string name="copy_css_selector">نسخ محدد CSS</string>
+    <string name="copy_html">نسخ HTML</string>
+    <string name="press_enter">اضغط Enter للتنفيذ…</string>
+
+    <string name="notification_permission">إذن الإشعارات</string>
+    <string name="notification_permission_desc">لتلقي إشعارات عندما يكتشف المراقب تغييرات، يُرجى منح إذن الإشعارات عبر الضغط على الزر أدناه.</string>
+    <string name="notification_permission_required">مطلوب إذن الإشعارات لاستخدام هذه الميزة. هل تود الانتقال إلى الإعدادات لمنحه؟</string>
+    <string name="allow_notification">السماح بالإشعارات</string>
+    <string name="microphone_access_required">يتطلب الوصول إلى الميكروفون لاستخدام هذه الميزة. هل تود فتح الإعدادات لتمكينه؟</string>
+    <string name="speech_not_available">التعرف الصوتي غير متوفر</string>
+
+    <string name="empty_home">لا شيء هنا بعد</string>
+    <string name="add_first_weblos">أضف أول Weblo بالضغط على زر "+" </string>
+    <string name="query_no_match">لا توجد نتائج</string>
+    <string name="already_added">مضاف بالفعل</string>
+    <string name="added_successfully">تمت الإضافة بنجاح</string>
+    <string name="added_to_home">أُضيف إلى الرئيسية</string>
+    <string name="add_shortcut">إضافة اختصار</string>
+    <string name="cloned_to">تم استنساخ %1$s إلى %2$s</string>
+
+    <string name="oops_something_wrong">عفوًا! حدث خطأ</string>
+    <string name="something_went_wrong">حدث خطأ</string>
+    <string name="website_unreachable">يبدو أن الموقع غير متاح. يرجى التحقق من اتصال الشبكة.</string>
+    <string name="connection_error">خطأ في الاتصال</string>
+    <string name="operation_expired">انتهت صلاحية العملية. يرجى المحاولة مرة أخرى</string>
+    <string name="input_not_valid">الإدخال غير صالح</string>
+    <string name="redirect_warning">تحاول هذه الصفحة إعادة توجيهك إلى:\n&lt;u&gt;&lt;b&gt;%1$s&lt;/b&gt;&lt;/u&gt;</string>
+    <string name="this_page_is_trying_to_redirect_you_to">تُحاول هذه الصفحة إعادة توجيهك إلى :</string>
+    <string name="remember_my_choice">تذكر اختياري</string>
+    <string name="could_not_fetch_please_check_your_internet">تعذر التحميل. يرجى التحقق من اتصال الإنترنت.</string>
+
+    <string name="enter_name">أدخل اسمًا</string>
+    <string name="enter_url">أدخل رابطًا</string>
+    <string name="enter_urls">أدخل عناوين URL مفصولة بأسطر جديدة. مثال:\n\nhttps://www.example.com/\nblog.example.com/eggs/\nexample.com</string>
+    <string name="enter_unix_epoch">أدخل طابع زمن Unix</string>
+    <string name="title">العنوان</string>
+
+    <string name="copy_to_clipboard">نسخ إلى الحافظة</string>
+    <string name="copied_to_clipboard">تم نسخ الرابط إلى الحافظة</string>
+    <string name="select_mode">وضع التحديد (النقرات معطلة)</string>
+    <string name="navigation_mode">وضع التصفح (النقرات مفعّلة)</string>
+    <string name="shift_up">نقل لأعلى</string>
+    <string name="shift_down">نقل لأسفل</string>
+
+    <string name="backup">نسخ احتياطي</string>
+    <string name="clear_data">مسح البيانات</string>
+    <string name="resync_from_internet">إعادة المزامنة من الإنترنت</string>
+    <string name="syncing">جاري المزامنة…</string>
+    <string name="synced_successfully">تمت المزامنة بنجاح</string>
+
+    <string name="basic_plan">الخطة الأساسية</string>
+    <string name="unlock_premium">افتح المحتوى المميز!</string>
+    <string name="go_premium">اشترك في المميز</string>
+    <string name="unlock_exclusive_features">افتح ميزات حصرية</string>
+    <string name="unlimited_access">وصول غير محدود</string>
+    <string name="no_limits_full_freedom">بدون قيود، حرية كاملة</string>
+    <string name="support_development">ادعم التطوير</string>
+    <string name="more_premium_features_ahead">المزيد من الميزات المميزة قادم..</string>
+    <string name="you_are_premium">أنت مشترك بالمميز :)</string>
+    <string name="restore_purchase">استعادة الشراء</string>
+    <string name="restored_successfully">تمت الاستعادة بنجاح</string>
+    <string name="no_purchases_to_restore">لا توجد مشتريات لاستعادتها</string>
+    <string name="restore_failed_please_try_again">فشلت الاستعادة. يرجى المحاولة مرة أخرى.</string>
+    <string name="days">أيام</string>
+    <string name="_30">30</string>
+    <string name="_180">180</string>
+    <string name="lifetime">مدى الحياة</string>
+
+    <string name="welcome_aboard">مرحبًا بك</string>
+    <string name="get_started_to_explore_the_magic_of_weblo">ابدأ لاستكشاف مميزات Weblo</string>
+    <string name="start_fresh">ابدأ من جديد</string>
+    <string name="start_with_examples">ابدأ بالأمثلة</string>
+    <string name="customize_websites">خصص المواقع</string>
+    <string name="use_powerful_tools_to_experience_the_web_as_you_always_wanted">استخدم أدوات قوية لتجربة الويب كما رغبت دائمًا</string>
+    <string name="organize_sites">نظم المواقع</string>
+    <string name="keep_your_sessions_organized_across_different_profile_and_categories">حافظ على تنظيم جلساتك عبر ملفات شخصية وفئات مختلفة</string>
+</resources>
