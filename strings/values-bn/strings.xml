@@ -18,7 +18,6 @@
 
     <string name="home">হোম</string>
     <string name="settings">সেটিংস</string>
-    <string name="settings_title">সেটিংস</string>
     <string name="go_to_settings">সেটিংসে যান</string>
 
     <string name="add">যোগ করুন</string>
@@ -40,7 +39,6 @@
     <string name="continue_">চালিয়ে যান</string>
     <string name="close">বন্ধ করুন</string>
 
-    <string name="add_weblo">Weblo যোগ করুন</string>
     <string name="search_weblos">Weblo খুঁজুন</string>
     <string name="open_weblo">%1$s খুলুন</string>
     <string name="clone_weblo_confirm">আপনি কি নিশ্চিত যে আপনি এই Weblo ক্লোন করতে চান? আপনার ব্রাউজিং ডেটা কপি করা হবে না।</string>
@@ -123,8 +121,6 @@
     <string name="no_weblos_in_category">এই ক্যাটাগরিতে Weblo নেই</string>
     <string name="move_to">স্থানান্তর করুন</string>
     <string name="moved_to">%1$s-এ সরানো হয়েছে</string>
-    <string name="moved_weblos">%1$d Weblo সরানো হয়েছে</string>
-    <string name="deleted_weblos">%1$d Weblo মুছে ফেলা হয়েছে</string>
 
     <string name="profiles">প্রোফাইল</string>
     <string name="profiles_desc">প্রোফাইলগুলো ব্রাউজির আলাদা স্পেস রাখে। প্রতিটি প্রোফাইলের আলাদা ইতিহাস, লগইন ও সেটিংস থাকে—তাই কাজ, ব্যক্তিগত বা পরীক্ষা ইত্যাদি সহজে আলাদা রাখা যায়।</string>
@@ -190,7 +186,6 @@
     <string name="filter_url">ফিল্টার URL</string>
     <string name="no_filters">কোনো ফিল্টার পাওয়া যায়নি</string>
     <string name="no_filters_found">কোনো ফিল্টার পাওয়া যায়নি</string>
-    <string name="rules_count">%1$d নিয়ম</string>
     <string name="css_selector_help">ব্লক করতে চান এমন উপাদানগুলির CSS সিলেক্টরগুলো প্রতিটি আলাদা লাইনে পেস্ট করুন। উদাহরণ:
 
 .ad-example
@@ -346,4 +341,19 @@ iframe[src*="ads"]</string>
     <string name="use_powerful_tools_to_experience_the_web_as_you_always_wanted">শক্তিশালী টুল ব্যবহার করে ওয়েব উপভোগ করুন যেমন আপনি চান</string>
     <string name="organize_sites">সাইটগুলো সাজান</string>
     <string name="keep_your_sessions_organized_across_different_profile_and_categories">বিভিন্ন প্রোফাইল ও ক্যাটাগরিতে আপনার সেশনগুলো সুশৃঙ্খল রাখুন</string>
+
+    <string name="unknown">অজানা</string>
+    <plurals name="moved_weblos">
+        <item quantity="one">%1$d ওয়েবলো সরানো হয়েছে</item>
+        <item quantity="other">%1$d ওয়েবলো সরানো হয়েছে</item>
+    </plurals>
+    <plurals name="deleted_weblos">
+        <item quantity="one">%1$d ওয়েবলো মুছে ফেলা হয়েছে</item>
+        <item quantity="other">%1$d ওয়েবলো মুছে ফেলা হয়েছে</item>
+    </plurals>
+    <plurals name="rules_count">
+        <item quantity="one">%1$d নিয়ম</item>
+        <item quantity="other">%1$d নিয়ম</item>
+    </plurals>
+
 </resources>

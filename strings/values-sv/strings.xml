@@ -16,7 +16,6 @@
     <string name="license">Licens</string>
     <string name="home">Hem</string>
     <string name="settings">Inställningar</string>
-    <string name="settings_title">Inställningar</string>
     <string name="go_to_settings">Öppna inställningar</string>
 
     <string name="add">Lägg till</string>
@@ -38,7 +37,6 @@
     <string name="continue_">Fortsätt</string>
     <string name="close">Stäng</string>
 
-    <string name="add_weblo">Lägg till Weblo</string>
     <string name="search_weblos">Sök weblos</string>
     <string name="open_weblo">Öppna %1$s</string>
     <string name="clone_weblo_confirm">Är du säker på att du vill klona den här weblon? Din surfhistorik kommer inte att kopieras.</string>
@@ -121,8 +119,6 @@
     <string name="no_weblos_in_category">Inga weblos i den här kategorin</string>
     <string name="move_to">Flytta till</string>
     <string name="moved_to">Flyttat till %1$s</string>
-    <string name="moved_weblos">Flyttade %1$d weblos</string>
-    <string name="deleted_weblos">Raderade %1$d weblos</string>
 
     <string name="profiles">Profiler</string>
     <string name="profiles_desc">Profiler låter dig ha separata utrymmen för surfande. Varje profil har egen historik, inloggningar och inställningar, vilket gör det enkelt att växla mellan arbete, privat eller test utan att blanda ihop dem.</string>
@@ -188,7 +184,6 @@
     <string name="filter_url">Filter-URL</string>
     <string name="no_filters">Inga filter hittades</string>
     <string name="no_filters_found">Inga filter hittades</string>
-    <string name="rules_count">%1$d regler</string>
     <string name="css_selector_help">Klistra in CSS-selektorerna för de element du vill blockera, en per rad. Till exempel:\n\n.ad-example\nfooter .newsletter-signup\niframe[src*=&quot;ads&quot;]</string>
     <string name="refresh_filter_prompt">Försök uppdatera filtret</string>
 
@@ -340,5 +335,19 @@
     <string name="use_powerful_tools_to_experience_the_web_as_you_always_wanted">Använd kraftfulla verktyg för att uppleva webben precis som du vill</string>
     <string name="organize_sites">Organisera sajter</string>
     <string name="keep_your_sessions_organized_across_different_profile_and_categories">Håll dina sessioner organiserade mellan olika profiler och kategorier</string>
+
+    <string name="unknown">Okänd</string>
+    <plurals name="moved_weblos">
+        <item quantity="one">Flyttade %1$d weblo</item>
+        <item quantity="other">Flyttade %1$d weblos</item>
+    </plurals>
+    <plurals name="deleted_weblos">
+        <item quantity="one">Tog bort %1$d weblo</item>
+        <item quantity="other">Tog bort %1$d weblos</item>
+    </plurals>
+    <plurals name="rules_count">
+        <item quantity="one">%1$d regel</item>
+        <item quantity="other">%1$d regler</item>
+    </plurals>
 
 </resources>

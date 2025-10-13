@@ -18,7 +18,6 @@
 
     <string name="home">首頁</string>
     <string name="settings">設定</string>
-    <string name="settings_title">設定</string>
     <string name="go_to_settings">前往設定</string>
 
     <string name="add">新增</string>
@@ -40,7 +39,6 @@
     <string name="continue_">繼續</string>
     <string name="close">關閉</string>
 
-    <string name="add_weblo">新增 Weblo</string>
     <string name="search_weblos">搜尋 Weblo</string>
     <string name="open_weblo">開啟 %1$s</string>
     <string name="clone_weblo_confirm">確定要複製這個 Weblo 嗎？您的瀏覽資料不會被複製。</string>
@@ -123,8 +121,6 @@
     <string name="no_weblos_in_category">此分類沒有 Weblo</string>
     <string name="move_to">移動到</string>
     <string name="moved_to">已移動到 %1$s</string>
-    <string name="moved_weblos">已移動 %1$d 個 Weblo</string>
-    <string name="deleted_weblos">已刪除 %1$d 個 Weblo</string>
 
     <string name="profiles">個人資料</string>
     <string name="profiles_desc">個人資料讓你保持獨立的瀏覽空間。每個個人資料都有自己的歷史、登入與設定，方便在工作、個人或測試間切換而不混淆。</string>
@@ -190,7 +186,6 @@
     <string name="filter_url">過濾 URL</string>
     <string name="no_filters">未找到任何過濾規則</string>
     <string name="no_filters_found">未找到任何過濾規則</string>
-    <string name="rules_count">%1$d 個規則</string>
     <string name="css_selector_help">請貼上你想要封鎖的元素 CSS 選擇器，每行一個。例如：\n\n.ad-example\nfooter .newsletter-signup\niframe[src*=\"ads\"]</string>
     <string name="refresh_filter_prompt">請嘗試重新整理過濾規則</string>
 
@@ -342,4 +337,16 @@
     <string name="use_powerful_tools_to_experience_the_web_as_you_always_wanted">使用強大工具，打造你想要的上網體驗</string>
     <string name="organize_sites">整理網站</string>
     <string name="keep_your_sessions_organized_across_different_profile_and_categories">讓你的會話在不同個人資料與分類間保持有條理</string>
+
+    <string name="unknown">未知</string>
+    <plurals name="moved_weblos">
+        <item quantity="other">已移动 %1$d 个 weblo</item>
+    </plurals>
+    <plurals name="deleted_weblos">
+        <item quantity="other">已删除 %1$d 个 weblo</item>
+    </plurals>
+    <plurals name="rules_count">
+        <item quantity="other">%1$d 条规则</item>
+    </plurals>
+
 </resources>

@@ -17,7 +17,6 @@
 
     <string name="home">בית</string>
     <string name="settings">הגדרות</string>
-    <string name="settings_title">הגדרות</string>
     <string name="go_to_settings">עבור להגדרות</string>
 
     <string name="add">הוסף</string>
@@ -39,7 +38,6 @@
     <string name="continue_">המשך</string>
     <string name="close">סגור</string>
 
-    <string name="add_weblo">הוסף Weblo</string>
     <string name="search_weblos">חפש weblos</string>
     <string name="open_weblo">פתח את %1$s</string>
     <string name="clone_weblo_confirm">האם אתה בטוח שברצונך לשכפל את ה-Weblo הזה? נתוני הגלישה שלך לא יועתקו.</string>
@@ -122,8 +120,6 @@
     <string name="no_weblos_in_category">אין Webloים בקטגוריה זו</string>
     <string name="move_to">העבר ל־</string>
     <string name="moved_to">הועבר ל־%1$s</string>
-    <string name="moved_weblos">הועברו %1$d Webloים</string>
-    <string name="deleted_weblos">נמחקו %1$d Webloים</string>
 
     <string name="profiles">פרופילים</string>
     <string name="profiles_desc">פרופילים מאפשרים לך לשמור מקומות גלישה נפרדים. לכל פרופיל היסטוריה, כניסות והגדרות משלו — כך קל לעבור בין עבודה, שימוש פרטי או בדיקות מבלי לערבב דברים.</string>
@@ -189,7 +185,6 @@
     <string name="filter_url">כתובת URL של המסנן</string>
     <string name="no_filters">לא נמצאו מסננים</string>
     <string name="no_filters_found">לא נמצאו מסננים</string>
-    <string name="rules_count">%1$d כללים</string>
     <string name="css_selector_help">הדבק את בוחרי ה-CSS של האלמנטים שברצונך לחסום, כל אחד בשורה חדשה. לדוגמה:\n\n.ad-example\nfooter .newsletter-signup\niframe[src*="ads"]</string>
     <string name="refresh_filter_prompt">אנא נסה לרענן את המסנן</string>
 
@@ -341,5 +336,25 @@
     <string name="use_powerful_tools_to_experience_the_web_as_you_always_wanted">השתמש בכלים חזקים כדי לחוות את האינטרנט כפי שתמיד רצית</string>
     <string name="organize_sites">ארגן אתרים</string>
     <string name="keep_your_sessions_organized_across_different_profile_and_categories">שמור על סדר בסשנים שלך בין פרופילים וקטגוריות שונות</string>
+
+    <string name="unknown">לא ידוע</string>
+
+    <plurals name="moved_weblos">
+        <item quantity="one">הועבר %1$d weblo</item>
+        <item quantity="two">הועברו %1$d weblos</item>
+        <item quantity="other">הועברו %1$d weblos</item>
+    </plurals>
+
+    <plurals name="deleted_weblos">
+        <item quantity="one">נמחק %1$d weblo</item>
+        <item quantity="two">נמחקו %1$d weblos</item>
+        <item quantity="other">נמחקו %1$d weblos</item>
+    </plurals>
+
+    <plurals name="rules_count">
+        <item quantity="one">%1$d כלל</item>
+        <item quantity="two">%1$d שני כללים</item>
+        <item quantity="other">%1$d כללים</item>
+    </plurals>
 
 </resources>

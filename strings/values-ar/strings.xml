@@ -18,7 +18,6 @@
 
     <string name="home">الرئيسية</string>
     <string name="settings">الإعدادات</string>
-    <string name="settings_title">الإعدادات</string>
     <string name="go_to_settings">فتح الإعدادات</string>
 
     <string name="add">إضافة</string>
@@ -40,7 +39,6 @@
     <string name="continue_">متابعة</string>
     <string name="close">إغلاق</string>
 
-    <string name="add_weblo">إضافة Weblo</string>
     <string name="search_weblos">بحث في Weblos</string>
     <string name="open_weblo">افتح %1$s</string>
     <string name="clone_weblo_confirm">هل أنت متأكد أنك تريد استنساخ هذا Weblo؟ بيانات التصفح الخاصة بك لن تُنسخ.</string>
@@ -123,8 +121,6 @@
     <string name="no_weblos_in_category">لا توجد عناصر Weblo في هذه الفئة</string>
     <string name="move_to">نقل إلى</string>
     <string name="moved_to">نُقل إلى %1$s</string>
-    <string name="moved_weblos">نُقل %1$d عنصر Weblo</string>
-    <string name="deleted_weblos">حُذف %1$d عنصر Weblo</string>
 
     <string name="profiles">الملفات الشخصية</string>
     <string name="profiles_desc">الملفات الشخصية تتيح لك مساحات منفصلة للتصفح؛ كل ملف يحتفظ بسجل، تسجيلات الدخول، وإعداداته الخاصة—مفيد للفصل بين العمل، الشخصي، أو الاختبار.</string>
@@ -190,7 +186,6 @@
     <string name="filter_url">رابط الفلتر</string>
     <string name="no_filters">لا توجد فلاتر</string>
     <string name="no_filters_found">لا توجد فلاتر</string>
-    <string name="rules_count">%1$d قواعد</string>
     <string name="css_selector_help">ألصق محددات CSS للعناصر التي تريد حظرها، كل سطر على حدة. على سبيل المثال:\n\n.ad-example\nfooter .newsletter-signup\niframe[src*="ads"]</string>
     <string name="refresh_filter_prompt">يرجى محاولة تحديث الفلتر</string>
 
@@ -342,4 +337,34 @@
     <string name="use_powerful_tools_to_experience_the_web_as_you_always_wanted">استخدم أدوات قوية لتجربة الويب كما رغبت دائمًا</string>
     <string name="organize_sites">نظم المواقع</string>
     <string name="keep_your_sessions_organized_across_different_profile_and_categories">حافظ على تنظيم جلساتك عبر ملفات شخصية وفئات مختلفة</string>
+
+    <string name="unknown">غير معروف</string>
+
+    <plurals name="moved_weblos">
+        <item quantity="zero">تم نقل 0 weblo</item>
+        <item quantity="one">تم نقل weblo واحد</item>
+        <item quantity="two">تم نقل webloانان</item>
+        <item quantity="few">تم نقل %1$d weblos</item>
+        <item quantity="many">تم نقل %1$d weblos</item>
+        <item quantity="other">تم نقل %1$d weblos</item>
+    </plurals>
+
+    <plurals name="deleted_weblos">
+        <item quantity="zero">تم حذف 0 weblo</item>
+        <item quantity="one">تم حذف weblo واحد</item>
+        <item quantity="two">تم حذف webloانان</item>
+        <item quantity="few">تم حذف %1$d weblos</item>
+        <item quantity="many">تم حذف %1$d weblos</item>
+        <item quantity="other">تم حذف %1$d weblos</item>
+    </plurals>
+
+    <plurals name="rules_count">
+        <item quantity="zero">0 قاعدة</item>
+        <item quantity="one">%1$d قاعدة</item>
+        <item quantity="two">%1$d قاعدتان</item>
+        <item quantity="few">%1$d قواعد</item>
+        <item quantity="many">%1$d قاعدة</item>
+        <item quantity="other">%1$d قاعدة</item>
+    </plurals>
+
 </resources>

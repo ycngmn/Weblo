@@ -18,7 +18,6 @@
 
     <string name="home">Ana Sayfa</string>
     <string name="settings">Ayarlar</string>
-    <string name="settings_title">Ayarlar</string>
     <string name="go_to_settings">Ayarları Aç</string>
 
     <string name="add">Ekle</string>
@@ -40,7 +39,6 @@
     <string name="continue_">Devam</string>
     <string name="close">Kapat</string>
 
-    <string name="add_weblo">Weblo Ekle</string>
     <string name="search_weblos">Weblo\'ları Ara</string>
     <string name="open_weblo">Aç %1$s</string>
     <string name="clone_weblo_confirm">Bu Weblo\'yu klonlamak istediğinizden emin misiniz? Tarama verileriniz kopyalanmayacak</string>
@@ -123,8 +121,6 @@
     <string name="no_weblos_in_category">Bu kategoride Weblo yok</string>
     <string name="move_to">Taşı</string>
     <string name="moved_to">%1$s konumuna taşındı</string>
-    <string name="moved_weblos">%1$d Weblo taşındı</string>
-    <string name="deleted_weblos">%1$d Weblo silindi</string>
 
     <string name="profiles">Profiller</string>
     <string name="profiles_desc">Profiller, gezinme için ayrı alanlar tutmanızı sağlar. Her profilin kendine ait geçmişi, oturum bilgileri ve ayarları vardır; böylece iş, kişisel veya test kullanımları arasında karışıklık olmadan geçiş yapabilirsiniz</string>
@@ -190,7 +186,6 @@
     <string name="filter_url">Filtre URL\'si</string>
     <string name="no_filters">Filtre bulunamadı</string>
     <string name="no_filters_found">Filtre bulunamadı</string>
-    <string name="rules_count">%1$d kural</string>
     <string name="css_selector_help">Engellemek istediğiniz öğelerin CSS seçicilerini, her birini ayrı bir satıra koyarak yapıştırın. Örnek:\n\n.ad-example\nfooter .newsletter-signup\niframe[src*="ads"]</string>
     <string name="refresh_filter_prompt">Lütfen filtreyi yenilemeyi deneyin</string>
 
@@ -342,4 +337,19 @@
     <string name="use_powerful_tools_to_experience_the_web_as_you_always_wanted">İstediğiniz şekilde web\'i deneyimlemek için güçlü araçlar kullanın</string>
     <string name="organize_sites">Siteleri Düzenle</string>
     <string name="keep_your_sessions_organized_across_different_profile_and_categories">Oturumlarınızı farklı profiller ve kategoriler arasında düzenli tutun</string>
+
+    <string name="unknown">Bilinmiyor</string>
+    <plurals name="moved_weblos">
+        <item quantity="one">%1$d weblo taşındı</item>
+        <item quantity="other">%1$d weblo taşındı</item>
+    </plurals>
+    <plurals name="deleted_weblos">
+        <item quantity="one">%1$d weblo silindi</item>
+        <item quantity="other">%1$d weblo silindi</item>
+    </plurals>
+    <plurals name="rules_count">
+        <item quantity="one">%1$d kural</item>
+        <item quantity="other">%1$d kural</item>
+    </plurals>
+
 </resources>

@@ -18,7 +18,6 @@
 
     <string name="home">Home</string>
     <string name="settings">Settings</string>
-    <string name="settings_title">Settings</string>
     <string name="go_to_settings">Open Settings</string>
 
     <string name="add">Add</string>
@@ -40,7 +39,6 @@
     <string name="continue_">Continue</string>
     <string name="close">Close</string>
 
-    <string name="add_weblo">Add Weblo</string>
     <string name="search_weblos">Search Weblos</string>
     <string name="open_weblo">Open %1$s</string>
     <string name="clone_weblo_confirm">Are you sure you want to clone this weblo? Your browsing data will not be copied.</string>
@@ -123,8 +121,6 @@
     <string name="no_weblos_in_category">No weblos in this category</string>
     <string name="move_to">Move to</string>
     <string name="moved_to">Moved to %1$s</string>
-    <string name="moved_weblos">Moved %1$d weblos</string>
-    <string name="deleted_weblos">Deleted %1$d weblos</string>
 
     <string name="profiles">Profiles</string>
     <string name="profiles_desc">Profiles let you keep separate spaces for browsing. Each profile has its own history, logins, and settings, making it easy to switch between work, personal, or testing without mixing things up.</string>
@@ -190,7 +186,6 @@
     <string name="filter_url">Filter URL</string>
     <string name="no_filters">No filters found</string>
     <string name="no_filters_found">No filters found</string>
-    <string name="rules_count">%1$d rules</string>
     <string name="css_selector_help">Paste the CSS selectors of the elements you want to block, each on a separate line. For example:\n\n.ad-example\nfooter .newsletter-signup\niframe[src*="ads"]</string>
     <string name="refresh_filter_prompt">Please try refreshing the filter</string>
 
@@ -342,4 +337,19 @@
     <string name="use_powerful_tools_to_experience_the_web_as_you_always_wanted">Use powerful tools to experience the web as you always wanted</string>
     <string name="organize_sites">Organize sites</string>
     <string name="keep_your_sessions_organized_across_different_profile_and_categories">Keep your sessions organized across different profile and categories</string>
+
+    <string name="unknown">Unknown</string>
+    <plurals name="moved_weblos">
+        <item quantity="one">Moved %1$d weblo</item>
+        <item quantity="other">Moved %1$d weblos</item>
+    </plurals>
+    <plurals name="deleted_weblos">
+        <item quantity="one">Deleted %1$d weblo</item>
+        <item quantity="other">Deleted %1$d weblos</item>
+    </plurals>
+    <plurals name="rules_count">
+        <item quantity="one">%1$d rule</item>
+        <item quantity="other">%1$d rules</item>
+    </plurals>
+
 </resources>

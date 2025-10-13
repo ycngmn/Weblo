@@ -18,7 +18,6 @@
 
     <string name="home">Startpagina</string>
     <string name="settings">Instellingen</string>
-    <string name="settings_title">Instellingen</string>
     <string name="go_to_settings">Open instellingen</string>
 
     <string name="add">Toevoegen</string>
@@ -40,7 +39,6 @@
     <string name="continue_">Doorgaan</string>
     <string name="close">Sluiten</string>
 
-    <string name="add_weblo">Weblo toevoegen</string>
     <string name="search_weblos">Zoek Weblo\'s</string>
     <string name="open_weblo">Open %1$s</string>
     <string name="clone_weblo_confirm">Weet u zeker dat u dit Weblo wilt klonen? Uw browsegegevens worden niet gekopieerd.</string>
@@ -123,8 +121,6 @@
     <string name="no_weblos_in_category">Geen Weblo\'s in deze categorie</string>
     <string name="move_to">Verplaats naar</string>
     <string name="moved_to">Verplaatst naar %1$s</string>
-    <string name="moved_weblos">Verplaatst %1$d Weblo\'s</string>
-    <string name="deleted_weblos">Verwijderd %1$d Weblo\'s</string>
 
     <string name="profiles">Profielen</string>
     <string name="profiles_desc">Profielen laten u aparte ruimtes hebben om te browsen. Elk profiel heeft zijn eigen geschiedenis, inloggegevens en instellingen, zodat u eenvoudig kunt wisselen tussen werk, privé of testen zonder dingen te vermengen.</string>
@@ -190,7 +186,6 @@
     <string name="filter_url">Filter-URL</string>
     <string name="no_filters">Geen filters gevonden</string>
     <string name="no_filters_found">Geen filters gevonden</string>
-    <string name="rules_count">%1$d regels</string>
     <string name="css_selector_help">Plak de CSS-selectors van de elementen die u wilt blokkeren, één per regel. Bijvoorbeeld:\n\n.ad-example\nfooter .newsletter-signup\niframe[src*="ads"]</string>
     <string name="refresh_filter_prompt">Probeer het filter te verversen</string>
 
@@ -342,4 +337,19 @@
     <string name="use_powerful_tools_to_experience_the_web_as_you_always_wanted">Gebruik krachtige tools om het web te ervaren zoals u dat wilt</string>
     <string name="organize_sites">Organiseer sites</string>
     <string name="keep_your_sessions_organized_across_different_profile_and_categories">Houd uw sessies georganiseerd over verschillende profielen en categorieën</string>
+
+    <string name="unknown">Onbekend</string>
+    <plurals name="moved_weblos">
+        <item quantity="one">%1$d weblo verplaatst</item>
+        <item quantity="other">%1$d weblos verplaatst</item>
+    </plurals>
+    <plurals name="deleted_weblos">
+        <item quantity="one">%1$d weblo verwijderd</item>
+        <item quantity="other">%1$d weblos verwijderd</item>
+    </plurals>
+    <plurals name="rules_count">
+        <item quantity="one">%1$d regel</item>
+        <item quantity="other">%1$d regels</item>
+    </plurals>
+
 </resources>

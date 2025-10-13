@@ -17,7 +17,6 @@
     <string name="license">Licença</string>
     <string name="home">Início</string>
     <string name="settings">Configurações</string>
-    <string name="settings_title">Configurações</string>
     <string name="go_to_settings">Abrir configurações</string>
 
     <string name="add">Adicionar</string>
@@ -39,7 +38,6 @@
     <string name="continue_">Continuar</string>
     <string name="close">Fechar</string>
 
-    <string name="add_weblo">Adicionar Weblo</string>
     <string name="search_weblos">Pesquisar Weblos</string>
     <string name="open_weblo">Abrir %1$s</string>
     <string name="clone_weblo_confirm">Tem certeza de que deseja clonar este Weblo? Seus dados de navegação não serão copiados.</string>
@@ -122,8 +120,6 @@
     <string name="no_weblos_in_category">Nenhum Weblo nesta categoria</string>
     <string name="move_to">Mover para</string>
     <string name="moved_to">Movido para %1$s</string>
-    <string name="moved_weblos">Movidos %1$d Weblos</string>
-    <string name="deleted_weblos">Excluídos %1$d Weblos</string>
 
     <string name="profiles">Perfis</string>
     <string name="profiles_desc">Perfis permitem manter espaços separados para navegação. Cada perfil tem seu próprio histórico, logins e configurações, facilitando alternar entre trabalho, pessoal ou testes sem misturar nada.</string>
@@ -189,7 +185,6 @@
     <string name="filter_url">URL do filtro</string>
     <string name="no_filters">Nenhum filtro encontrado</string>
     <string name="no_filters_found">Nenhum filtro encontrado</string>
-    <string name="rules_count">%1$d regras</string>
     <string name="css_selector_help">Cole os seletores CSS dos elementos que você quer bloquear, um por linha. Por exemplo:\n\n.ad-example\nfooter .newsletter-signup\niframe[src*="ads"]</string>
     <string name="refresh_filter_prompt">Por favor, tente atualizar o filtro</string>
 
@@ -341,5 +336,25 @@
     <string name="use_powerful_tools_to_experience_the_web_as_you_always_wanted">Use ferramentas poderosas para experimentar a web do jeito que você sempre quis</string>
     <string name="organize_sites">Organizar sites</string>
     <string name="keep_your_sessions_organized_across_different_profile_and_categories">Mantenha suas sessões organizadas entre diferentes perfis e categorias</string>
+
+    <string name="unknown">Desconhecido</string>
+
+    <plurals name="moved_weblos">
+        <item quantity="one">%1$d weblo movido</item>
+        <item quantity="many">%1$d weblos movidos</item>
+        <item quantity="other">%1$d weblos movidos</item>
+    </plurals>
+
+    <plurals name="deleted_weblos">
+        <item quantity="one">%1$d weblo excluído</item>
+        <item quantity="many">%1$d weblos excluídos</item>
+        <item quantity="other">%1$d weblos excluídos</item>
+    </plurals>
+
+    <plurals name="rules_count">
+        <item quantity="one">%1$d regra</item>
+        <item quantity="many">%1$d regras</item>
+        <item quantity="other">%1$d regras</item>
+    </plurals>
 
 </resources>

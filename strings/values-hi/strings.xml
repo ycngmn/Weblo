@@ -17,7 +17,6 @@
     <string name="license">लाइसेंस</string>
     <string name="home">होम</string>
     <string name="settings">सेटिंग्स</string>
-    <string name="settings_title">सेटिंग्स</string>
     <string name="go_to_settings">सेटिंग्स खोलें</string>
 
     <string name="add">जोड़ें</string>
@@ -39,7 +38,6 @@
     <string name="continue_">जारी रखें</string>
     <string name="close">बंद करें</string>
 
-    <string name="add_weblo">वेबलो जोड़ें</string>
     <string name="search_weblos">वेब्लो खोजें</string>
     <string name="open_weblo">%1$s खोलें</string>
     <string name="clone_weblo_confirm">क्या आप वाकई इस वेबलो को क्लोन करना चाहते हैं? आपकी ब्राउज़िंग डेटा कॉपी नहीं की जाएगी।</string>
@@ -122,8 +120,6 @@
     <string name="no_weblos_in_category">इस श्रेणी में कोई वेबलो नहीं हैं</string>
     <string name="move_to">में स्थानांतरित करें</string>
     <string name="moved_to">%1$s में स्थानांतरित किया गया</string>
-    <string name="moved_weblos">%1$d वेबलो स्थानांतरित किए गए</string>
-    <string name="deleted_weblos">%1$d वेबलो हटाए गए</string>
 
     <string name="profiles">प्रोफ़ाइल</string>
     <string name="profiles_desc">प्रोफ़ाइल आपको ब्राउज़िंग के लिए अलग-अलग स्पेस रखने देती हैं। प्रत्येक प्रोफ़ाइल की अलग इतिहास, लॉगिन और सेटिंग्स होती हैं — इसलिए आप काम, व्यक्तिगत या परीक्षण के बीच बिना मिली-जुली जानकारी के आसानी से स्विच कर सकते हैं।</string>
@@ -189,7 +185,6 @@
     <string name="filter_url">फ़िल्टर URL</string>
     <string name="no_filters">कोई फ़िल्टर नहीं मिला</string>
     <string name="no_filters_found">कोई फ़िल्टर नहीं मिला</string>
-    <string name="rules_count">%1$d नियम</string>
     <string name="css_selector_help">ब्लॉक करने के लिए तत्वों के CSS सेलेक्टर्स को प्रति लाइन एक-एक करके पेस्ट करें। उदाहरण:\n\n.ad-example\nfooter .newsletter-signup\niframe[src*="ads"]</string>
     <string name="refresh_filter_prompt">कृपया फ़िल्टर को रिफ्रेश करने का प्रयास करें</string>
 
@@ -341,5 +336,19 @@
     <string name="use_powerful_tools_to_experience_the_web_as_you_always_wanted">शक्तिशाली टूल्स का उपयोग करके वेब का वैसा ही अनुभव लें जैसा आप हमेशा चाहते थे</string>
     <string name="organize_sites">साइटों को व्यवस्थित करें</string>
     <string name="keep_your_sessions_organized_across_different_profile_and_categories">अलग-अलग प्रोफ़ाइल और श्रेणियों में अपनी सत्रों को व्यवस्थित रखें</string>
+
+    <string name="unknown">अज्ञात</string>
+    <plurals name="moved_weblos">
+        <item quantity="one">%1$d वेब्लो स्थानांतरित किया गया</item>
+        <item quantity="other">%1$d वेब्लो स्थानांतरित किए गए</item>
+    </plurals>
+    <plurals name="deleted_weblos">
+        <item quantity="one">%1$d वेब्लो हटाया गया</item>
+        <item quantity="other">%1$d वेब्लो हटाए गए</item>
+    </plurals>
+    <plurals name="rules_count">
+        <item quantity="one">%1$d नियम</item>
+        <item quantity="other">%1$d नियम</item>
+    </plurals>
 
 </resources>

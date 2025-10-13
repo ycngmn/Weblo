@@ -18,7 +18,6 @@
 
     <string name="home">Главная</string>
     <string name="settings">Настройки</string>
-    <string name="settings_title">Настройки</string>
     <string name="go_to_settings">Открыть настройки</string>
 
     <string name="add">Добавить</string>
@@ -40,7 +39,6 @@
     <string name="continue_">Продолжить</string>
     <string name="close">Закрыть</string>
 
-    <string name="add_weblo">Добавить Weblo</string>
     <string name="search_weblos">Поиск Weblos</string>
     <string name="open_weblo">Открыть %1$s</string>
     <string name="clone_weblo_confirm">Вы уверены, что хотите клонировать этот Weblo? Данные браузера не будут скопированы.</string>
@@ -123,8 +121,6 @@
     <string name="no_weblos_in_category">Нет Weblos в этой категории</string>
     <string name="move_to">Переместить в</string>
     <string name="moved_to">Перемещено в %1$s</string>
-    <string name="moved_weblos">Перемещено %1$d Weblos</string>
-    <string name="deleted_weblos">Удалено %1$d Weblos</string>
 
     <string name="profiles">Профили</string>
     <string name="profiles_desc">Профили позволяют иметь отдельные пространства для просмотра. Каждый профиль имеет свою историю, входы и настройки, что облегчает переключение между работой, личным и тестированием без смешивания данных.</string>
@@ -190,7 +186,6 @@
     <string name="filter_url">URL фильтра</string>
     <string name="no_filters">Фильтров не найдено</string>
     <string name="no_filters_found">Фильтров не найдено</string>
-    <string name="rules_count">%1$d правил</string>
     <string name="css_selector_help">Вставьте CSS-селекторы элементов, которые вы хотите заблокировать, по одному на строку. Например:\n\n.ad-example\nfooter .newsletter-signup\niframe[src*="ads"]</string>
     <string name="refresh_filter_prompt">Пожалуйста, попробуйте обновить фильтр</string>
 
@@ -342,4 +337,28 @@
     <string name="use_powerful_tools_to_experience_the_web_as_you_always_wanted">Используйте мощные инструменты, чтобы пользоваться вебом так, как вы всегда хотели</string>
     <string name="organize_sites">Организовать сайты</string>
     <string name="keep_your_sessions_organized_across_different_profile_and_categories">Держите сессии организованными между разными профилями и категориями</string>
+
+    <string name="unknown">Неизвестно</string>
+
+    <plurals name="moved_weblos">
+        <item quantity="one">Перемещён %1$d вебло</item>
+        <item quantity="few">Перемещено %1$d вебло</item>
+        <item quantity="many">Перемещено %1$d вебло</item>
+        <item quantity="other">Перемещено %1$d вебло</item>
+    </plurals>
+
+    <plurals name="deleted_weblos">
+        <item quantity="one">Удалён %1$d вебло</item>
+        <item quantity="few">Удалено %1$d вебло</item>
+        <item quantity="many">Удалено %1$d вебло</item>
+        <item quantity="other">Удалено %1$d вебло</item>
+    </plurals>
+
+    <plurals name="rules_count">
+        <item quantity="one">%1$d правило</item>
+        <item quantity="few">%1$d правила</item>
+        <item quantity="many">%1$d правил</item>
+        <item quantity="other">%1$d правила</item>
+    </plurals>
+
 </resources>

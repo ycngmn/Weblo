@@ -18,7 +18,6 @@
 
     <string name="home">ホーム</string>
     <string name="settings">設定</string>
-    <string name="settings_title">設定</string>
     <string name="go_to_settings">設定を開く</string>
 
     <string name="add">追加</string>
@@ -40,7 +39,6 @@
     <string name="continue_">続行</string>
     <string name="close">閉じる</string>
 
-    <string name="add_weblo">Webloを追加</string>
     <string name="search_weblos">Webloを検索</string>
     <string name="open_weblo">「%1$s」を開く</string>
     <string name="clone_weblo_confirm">このWebloを複製してもよろしいですか？閲覧データはコピーされません。</string>
@@ -123,8 +121,6 @@
     <string name="no_weblos_in_category">このカテゴリにWebloはありません</string>
     <string name="move_to">移動先</string>
     <string name="moved_to">「%1$s」に移動しました</string>
-    <string name="moved_weblos">%1$d 件のWebloを移動しました</string>
-    <string name="deleted_weblos">%1$d 件のWebloを削除しました</string>
 
     <string name="profiles">プロファイル</string>
     <string name="profiles_desc">プロファイルを使うと閲覧スペースを分けられます。各プロファイルは履歴・ログイン・設定が独立しているため、仕事・プライベート・テスト用に混ぜずに切り替えられます。</string>
@@ -190,7 +186,6 @@
     <string name="filter_url">フィルタURL</string>
     <string name="no_filters">フィルタが見つかりません</string>
     <string name="no_filters_found">フィルタが見つかりません</string>
-    <string name="rules_count">%1$d 件のルール</string>
     <string name="css_selector_help">ブロックしたい要素のCSSセレクタを1行ごとに貼り付けてください。例:\n\n.ad-example\nfooter .newsletter-signup\niframe[src*="ads"]</string>
     <string name="refresh_filter_prompt">フィルタを更新してみてください</string>
 
@@ -342,4 +337,16 @@
     <string name="use_powerful_tools_to_experience_the_web_as_you_always_wanted">強力なツールで、思いどおりのウェブ体験を実現しましょう</string>
     <string name="organize_sites">サイトを整理する</string>
     <string name="keep_your_sessions_organized_across_different_profile_and_categories">プロフィールやカテゴリごとにセッションを整理して管理できます</string>
+
+    <string name="unknown">不明</string>
+    <plurals name="moved_weblos">
+        <item quantity="other">%1$d 件のWebloを移動しました</item>
+    </plurals>
+    <plurals name="deleted_weblos">
+        <item quantity="other">%1$d 件のWebloを削除しました</item>
+    </plurals>
+    <plurals name="rules_count">
+        <item quantity="other">%1$d ルール</item>
+    </plurals>
+
 </resources>

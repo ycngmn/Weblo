@@ -18,7 +18,6 @@
 
     <string name="home">主页</string>
     <string name="settings">设置</string>
-    <string name="settings_title">设置</string>
     <string name="go_to_settings">打开设置</string>
 
     <string name="add">添加</string>
@@ -40,7 +39,6 @@
     <string name="continue_">继续</string>
     <string name="close">关闭</string>
 
-    <string name="add_weblo">添加 Weblo</string>
     <string name="search_weblos">搜索 Weblo</string>
     <string name="open_weblo">打开 %1$s</string>
     <string name="clone_weblo_confirm">确定要克隆此 Weblo 吗？您的浏览数据不会被复制。</string>
@@ -123,8 +121,6 @@
     <string name="no_weblos_in_category">此分类中没有 Weblo</string>
     <string name="move_to">移动到</string>
     <string name="moved_to">已移动到 %1$s</string>
-    <string name="moved_weblos">已移动 %1$d 个 Weblo</string>
-    <string name="deleted_weblos">已删除 %1$d 个 Weblo</string>
 
     <string name="profiles">配置文件</string>
     <string name="profiles_desc">配置文件可让你为浏览创建独立空间。每个配置文件有独立的历史、登录信息和设置，便于在工作、个人或测试等场景间切换而互不干扰。</string>
@@ -190,7 +186,6 @@
     <string name="filter_url">过滤 URL</string>
     <string name="no_filters">未找到过滤规则</string>
     <string name="no_filters_found">未找到过滤规则</string>
-    <string name="rules_count">%1$d 条规则</string>
     <string name="css_selector_help">将要屏蔽的元素的 CSS 选择器逐行粘贴，每个选择器一行。例如：\n\n.ad-example\nfooter .newsletter-signup\niframe[src*="ads"]</string>
     <string name="refresh_filter_prompt">请尝试刷新过滤器</string>
 
@@ -342,4 +337,16 @@
     <string name="use_powerful_tools_to_experience_the_web_as_you_always_wanted">使用强大工具，以你想要的方式体验网络</string>
     <string name="organize_sites">整理站点</string>
     <string name="keep_your_sessions_organized_across_different_profile_and_categories">在不同配置文件和分类间保持会话有序</string>
+
+    <string name="unknown">未知</string>
+    <plurals name="moved_weblos">
+        <item quantity="other">已移动 %1$d 个 weblo</item>
+    </plurals>
+    <plurals name="deleted_weblos">
+        <item quantity="other">已删除 %1$d 个 weblo</item>
+    </plurals>
+    <plurals name="rules_count">
+        <item quantity="other">%1$d 条规则</item>
+    </plurals>
+
 </resources>

@@ -18,7 +18,6 @@
 
     <string name="home">หน้าแรก</string>
     <string name="settings">การตั้งค่า</string>
-    <string name="settings_title">การตั้งค่า</string>
     <string name="go_to_settings">ไปที่การตั้งค่า</string>
 
     <string name="add">เพิ่ม</string>
@@ -40,7 +39,6 @@
     <string name="continue_">ดำเนินการต่อ</string>
     <string name="close">ปิด</string>
 
-    <string name="add_weblo">เพิ่ม Weblo</string>
     <string name="search_weblos">ค้นหา Weblo</string>
     <string name="open_weblo">เปิด %1$s</string>
     <string name="clone_weblo_confirm">คุณแน่ใจหรือไม่ว่าต้องการโคลน Weblo นี้? ข้อมูลการเรียกดูจะไม่ถูกคัดลอก</string>
@@ -123,8 +121,6 @@
     <string name="no_weblos_in_category">ไม่มี Weblo ในหมวดนี้</string>
     <string name="move_to">ย้ายไปยัง</string>
     <string name="moved_to">ย้ายไปยัง %1$s</string>
-    <string name="moved_weblos">ย้าย Weblo จำนวน %1$d รายการ</string>
-    <string name="deleted_weblos">ลบ Weblo จำนวน %1$d รายการ</string>
 
     <string name="profiles">โปรไฟล์</string>
     <string name="profiles_desc">โปรไฟล์ช่วยให้คุณแยกพื้นที่การท่องเว็บแต่ละส่วน แต่ละโปรไฟล์จะมีประวัติ การเข้าสู่ระบบ และการตั้งค่าของตัวเอง ทำให้สลับระหว่างงาน ส่วนตัว หรือการทดสอบได้โดยไม่ปะปนกัน</string>
@@ -190,7 +186,6 @@
     <string name="filter_url">กรอง URL</string>
     <string name="no_filters">ไม่พบตัวกรอง</string>
     <string name="no_filters_found">ไม่พบตัวกรอง</string>
-    <string name="rules_count">%1$d กฎ</string>
     <string name="css_selector_help">วางตัวเลือก CSS ขององค์ประกอบที่คุณต้องการบล็อก แต่ละตัวให้ขึ้นบรรทัดใหม่ ตัวอย่าง:\n\n.ad-example\nfooter .newsletter-signup\niframe[src*="ads"]</string>
     <string name="refresh_filter_prompt">โปรดลองรีเฟรชตัวกรอง</string>
 
@@ -284,7 +279,7 @@
     <string name="added_successfully">เพิ่มสำเร็จ</string>
     <string name="added_to_home">เพิ่มไปยังหน้าแรก</string>
     <string name="add_shortcut">เพิ่มทางลัด</string>
-    <string name="cloned_to">%1$s ถูกโคลนไปยัง %1$s</string>
+    <string name="cloned_to">%1$s ถูกโคลนไปยัง %2$s</string>
 
     <string name="oops_something_wrong">โอ๊ะ! เกิดข้อผิดพลาด</string>
     <string name="something_went_wrong">เกิดข้อผิดพลาด</string>
@@ -342,4 +337,16 @@
     <string name="use_powerful_tools_to_experience_the_web_as_you_always_wanted">ใช้เครื่องมือทรงพลังเพื่อสัมผัสเว็บในแบบที่คุณต้องการ</string>
     <string name="organize_sites">จัดระเบียบเว็บไซต์</string>
     <string name="keep_your_sessions_organized_across_different_profile_and_categories">เก็บเซสชันของคุณให้เป็นระเบียบข้ามโปรไฟล์และหมวดหมู่ต่างๆ</string>
+
+    <string name="unknown">ไม่ทราบ</string>
+    <plurals name="moved_weblos">
+        <item quantity="other">ย้าย %1$d weblo แล้ว</item>
+    </plurals>
+    <plurals name="deleted_weblos">
+        <item quantity="other">ลบ %1$d weblo แล้ว</item>
+    </plurals>
+    <plurals name="rules_count">
+        <item quantity="other">%1$d กฎ</item>
+    </plurals>
+
 </resources>
