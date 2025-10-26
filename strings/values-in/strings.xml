@@ -331,14 +331,23 @@
 
     <string name="welcome_aboard">Selamat datang</string>
     <string name="get_started_to_explore_the_magic_of_weblo">Mulai untuk menjelajahi keajaiban Weblo</string>
-    <string name="start_fresh">Mulai dari awal</string>
-    <string name="start_with_examples">Mulai dengan contoh</string>
     <string name="customize_websites">Sesuaikan situs</string>
     <string name="use_powerful_tools_to_experience_the_web_as_you_always_wanted">Gunakan alat canggih untuk mengalami web sesuai keinginan Anda</string>
     <string name="organize_sites">Atur situs</string>
     <string name="keep_your_sessions_organized_across_different_profile_and_categories">Jaga sesi Anda terorganisir di berbagai profil dan kategori</string>
 
     <string name="unknown">Tidak diketahui</string>
+    <string name="lets_go">Ayo mulai!</string>
+    <string name="select_category">Pilih kategori</string>
+    <string name="enter_a_script_title">Masukkan judul skrip..</string>
+    <string name="no_title">Tanpa judul</string>
+    <string name="userscripts_not_allowed">Userscript tidak diizinkan</string>
+    <string name="failed_to_locate_the_element">Gagal menemukan elemen</string>
+    <string name="a_new_change_detected">%1$s: perubahan baru terdeteksi</string>
+
+    <plurals name="added_weblos">
+        <item quantity="other">%1$d weblo ditambahkan</item>
+    </plurals>
     <plurals name="moved_weblos">
         <item quantity="other">Memindahkan %1$d weblo</item>
     </plurals>

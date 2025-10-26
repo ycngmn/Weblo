@@ -331,14 +331,23 @@
 
     <string name="welcome_aboard">Καλώς ήρθατε</string>
     <string name="get_started_to_explore_the_magic_of_weblo">Ξεκινήστε για να ανακαλύψετε τη μαγεία του Weblo</string>
-    <string name="start_fresh">Ξεκινήστε από την αρχή</string>
-    <string name="start_with_examples">Ξεκινήστε με παραδείγματα</string>
     <string name="customize_websites">Προσαρμόστε ιστότοπους</string>
     <string name="use_powerful_tools_to_experience_the_web_as_you_always_wanted">Χρησιμοποιήστε ισχυρά εργαλεία για να βιώσετε το web όπως πάντα θέλατε</string>
     <string name="organize_sites">Οργανώστε ιστότοπους</string>
     <string name="keep_your_sessions_organized_across_different_profile_and_categories">Κρατήστε τις συνεδρίες σας οργανωμένες ανά προφίλ και κατηγορίες</string>
 
     <string name="unknown">Άγνωστο</string>
+    <string name="lets_go">Πάμε!</string>
+    <string name="select_category">Επιλέξτε κατηγορία</string>
+    <string name="enter_a_script_title">Πληκτρολογήστε τίτλο σεναρίου..</string>
+    <string name="no_title">Χωρίς τίτλο</string>
+    <string name="userscripts_not_allowed">Τα user scripts δεν επιτρέπονται</string>
+    <string name="failed_to_locate_the_element">Αποτυχία εντοπισμού στοιχείου</string>
+    <string name="a_new_change_detected">%1$s: εντοπίστηκε νέα αλλαγή</string>
+    <plurals name="added_weblos">
+        <item quantity="one">Προστέθηκε %1$d weblo</item>
+        <item quantity="other">Προστέθηκαν %1$d weblos</item>
+    </plurals>
     <plurals name="moved_weblos">
         <item quantity="one">Μετακινήθηκε %1$d weblo</item>
         <item quantity="other">Μετακινήθηκαν %1$d weblo</item>

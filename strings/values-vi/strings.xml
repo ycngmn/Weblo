@@ -331,14 +331,23 @@
 
     <string name="welcome_aboard">Chào mừng</string>
     <string name="get_started_to_explore_the_magic_of_weblo">Bắt đầu để khám phá điều kỳ diệu của Weblo</string>
-    <string name="start_fresh">Bắt đầu mới</string>
-    <string name="start_with_examples">Bắt đầu với ví dụ</string>
     <string name="customize_websites">Tùy chỉnh trang web</string>
     <string name="use_powerful_tools_to_experience_the_web_as_you_always_wanted">Sử dụng công cụ mạnh mẽ để trải nghiệm web theo cách bạn muốn</string>
     <string name="organize_sites">Sắp xếp trang</string>
     <string name="keep_your_sessions_organized_across_different_profile_and_categories">Giữ các phiên của bạn gọn gàng giữa các hồ sơ và danh mục khác nhau</string>
 
     <string name="unknown">Không xác định</string>
+    <string name="lets_go">Bắt đầu thôi!</string>
+    <string name="select_category">Chọn danh mục</string>
+    <string name="enter_a_script_title">Nhập tiêu đề tập lệnh..</string>
+    <string name="no_title">Không có tiêu đề</string>
+    <string name="userscripts_not_allowed">Không cho phép user script</string>
+    <string name="failed_to_locate_the_element">Không tìm thấy phần tử</string>
+    <string name="a_new_change_detected">%1$s: phát hiện thay đổi mới</string>
+
+    <plurals name="added_weblos">
+        <item quantity="other">Đã thêm %1$d weblo</item>
+    </plurals>
     <plurals name="moved_weblos">
         <item quantity="other">Đã di chuyển %1$d weblo</item>
     </plurals>

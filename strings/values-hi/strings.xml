@@ -330,14 +330,24 @@
 
     <string name="welcome_aboard">आपका स्वागत है</string>
     <string name="get_started_to_explore_the_magic_of_weblo">शुरू करें और Weblo के जादू का अनुभव करें</string>
-    <string name="start_fresh">नई शुरुआत करें</string>
-    <string name="start_with_examples">उदाहरणों के साथ शुरू करें</string>
     <string name="customize_websites">वेबसाइट्स को अनुकूलित करें</string>
     <string name="use_powerful_tools_to_experience_the_web_as_you_always_wanted">शक्तिशाली टूल्स का उपयोग करके वेब का वैसा ही अनुभव लें जैसा आप हमेशा चाहते थे</string>
     <string name="organize_sites">साइटों को व्यवस्थित करें</string>
     <string name="keep_your_sessions_organized_across_different_profile_and_categories">अलग-अलग प्रोफ़ाइल और श्रेणियों में अपनी सत्रों को व्यवस्थित रखें</string>
 
     <string name="unknown">अज्ञात</string>
+    <string name="lets_go">चलो शुरू करें!</string>
+    <string name="select_category">श्रेणी चुनें</string>
+    <string name="enter_a_script_title">स्क्रिप्ट शीर्षक दर्ज करें..</string>
+    <string name="no_title">कोई शीर्षक नहीं</string>
+    <string name="userscripts_not_allowed">यूज़र स्क्रिप्ट्स की अनुमति नहीं</string>
+    <string name="failed_to_locate_the_element">तत्व नहीं मिला</string>
+    <string name="a_new_change_detected">%1$s: नया बदलाव पाया गया</string>
+
+    <plurals name="added_weblos">
+        <item quantity="one">%1$d वेब्लो जोड़ा गया</item>
+        <item quantity="other">%1$d वेब्लोस जोड़े गए</item>
+    </plurals>
     <plurals name="moved_weblos">
         <item quantity="one">%1$d वेब्लो स्थानांतरित किया गया</item>
         <item quantity="other">%1$d वेब्लो स्थानांतरित किए गए</item>

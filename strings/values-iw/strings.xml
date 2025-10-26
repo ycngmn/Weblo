@@ -330,21 +330,30 @@
 
     <string name="welcome_aboard">ברוכים הבאים</string>
     <string name="get_started_to_explore_the_magic_of_weblo">התחל לחקור את הקסם של Weblo</string>
-    <string name="start_fresh">התחל מאפס</string>
-    <string name="start_with_examples">התחל עם דוגמאות</string>
     <string name="customize_websites">התאם אתרים</string>
     <string name="use_powerful_tools_to_experience_the_web_as_you_always_wanted">השתמש בכלים חזקים כדי לחוות את האינטרנט כפי שתמיד רצית</string>
     <string name="organize_sites">ארגן אתרים</string>
     <string name="keep_your_sessions_organized_across_different_profile_and_categories">שמור על סדר בסשנים שלך בין פרופילים וקטגוריות שונות</string>
 
     <string name="unknown">לא ידוע</string>
+    <string name="lets_go">בוא נלך!</string>
+    <string name="select_category">בחר קטגוריה</string>
+    <string name="enter_a_script_title">הזן כותרת סקריפט..</string>
+    <string name="no_title">אין כותרת</string>
+    <string name="userscripts_not_allowed">סקריפטים מותאמים אישית לא מותרים</string>
+    <string name="failed_to_locate_the_element">נכשל באיתור האלמנט</string>
+    <string name="a_new_change_detected">%1$s: שינוי חדש זוהה</string>
 
+    <plurals name="added_weblos">
+        <item quantity="one">נוסף %1$d weblo</item>
+        <item quantity="two">נוספו %1$d weblos</item>
+        <item quantity="other">נוספו %1$d weblos</item>
+    </plurals>
     <plurals name="moved_weblos">
         <item quantity="one">הועבר %1$d weblo</item>
         <item quantity="two">הועברו %1$d weblos</item>
         <item quantity="other">הועברו %1$d weblos</item>
     </plurals>
-
     <plurals name="deleted_weblos">
         <item quantity="one">נמחק %1$d weblo</item>
         <item quantity="two">נמחקו %1$d weblos</item>

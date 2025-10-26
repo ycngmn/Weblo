@@ -331,14 +331,24 @@
 
     <string name="welcome_aboard">Hoş geldiniz</string>
     <string name="get_started_to_explore_the_magic_of_weblo">Weblo\'nun büyüsünü keşfetmeye başlayın</string>
-    <string name="start_fresh">Sıfırdan Başla</string>
-    <string name="start_with_examples">Örneklerle Başla</string>
     <string name="customize_websites">Web Sitelerini Özelleştir</string>
     <string name="use_powerful_tools_to_experience_the_web_as_you_always_wanted">İstediğiniz şekilde web\'i deneyimlemek için güçlü araçlar kullanın</string>
     <string name="organize_sites">Siteleri Düzenle</string>
     <string name="keep_your_sessions_organized_across_different_profile_and_categories">Oturumlarınızı farklı profiller ve kategoriler arasında düzenli tutun</string>
 
     <string name="unknown">Bilinmiyor</string>
+    <string name="lets_go">Haydi gidelim!</string>
+    <string name="select_category">Kategori seç</string>
+    <string name="enter_a_script_title">Bir komut başlığı gir..</string>
+    <string name="no_title">Başlıksız</string>
+    <string name="userscripts_not_allowed">Kullanıcı betiklerine izin verilmez</string>
+    <string name="failed_to_locate_the_element">Öğe bulunamadı</string>
+    <string name="a_new_change_detected">%1$s: yeni bir değişiklik algılandı</string>
+
+    <plurals name="added_weblos">
+        <item quantity="one">%1$d weblo eklendi</item>
+        <item quantity="other">%1$d weblos eklendi</item>
+    </plurals>
     <plurals name="moved_weblos">
         <item quantity="one">%1$d weblo taşındı</item>
         <item quantity="other">%1$d weblo taşındı</item>

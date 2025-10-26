@@ -331,14 +331,26 @@
 
     <string name="welcome_aboard">Добро пожаловать на борт</string>
     <string name="get_started_to_explore_the_magic_of_weblo">Начните исследовать магию Weblo</string>
-    <string name="start_fresh">Начать заново</string>
-    <string name="start_with_examples">Начать с примеров</string>
     <string name="customize_websites">Настраивать сайты</string>
     <string name="use_powerful_tools_to_experience_the_web_as_you_always_wanted">Используйте мощные инструменты, чтобы пользоваться вебом так, как вы всегда хотели</string>
     <string name="organize_sites">Организовать сайты</string>
     <string name="keep_your_sessions_organized_across_different_profile_and_categories">Держите сессии организованными между разными профилями и категориями</string>
 
     <string name="unknown">Неизвестно</string>
+    <string name="lets_go">Поехали!</string>
+    <string name="select_category">Выберите категорию</string>
+    <string name="enter_a_script_title">Введите название скрипта..</string>
+    <string name="no_title">Без названия</string>
+    <string name="userscripts_not_allowed">Пользовательские скрипты запрещены</string>
+    <string name="failed_to_locate_the_element">Не удалось найти элемент</string>
+    <string name="a_new_change_detected">%1$s: обнаружено новое изменение</string>
+
+    <plurals name="added_weblos">
+        <item quantity="one">Добавлен %1$d вебло</item>
+        <item quantity="few">Добавлено %1$d вебло</item>
+        <item quantity="many">Добавлено %1$d вебло</item>
+        <item quantity="other">Добавлено %1$d вебло</item>
+    </plurals>
 
     <plurals name="moved_weblos">
         <item quantity="one">Перемещён %1$d вебло</item>

@@ -335,14 +335,24 @@ iframe[src*="ads"]</string>
 
     <string name="welcome_aboard">স্বাগতম</string>
     <string name="get_started_to_explore_the_magic_of_weblo">Weblo-এর জাদু অন্বেষণ করতে শুরু করুন</string>
-    <string name="start_fresh">নতুন করে শুরু করুন</string>
-    <string name="start_with_examples">উদাহরণ দিয়ে শুরু করুন</string>
     <string name="customize_websites">ওয়েবসাইট কাস্টমাইজ করুন</string>
     <string name="use_powerful_tools_to_experience_the_web_as_you_always_wanted">শক্তিশালী টুল ব্যবহার করে ওয়েব উপভোগ করুন যেমন আপনি চান</string>
     <string name="organize_sites">সাইটগুলো সাজান</string>
     <string name="keep_your_sessions_organized_across_different_profile_and_categories">বিভিন্ন প্রোফাইল ও ক্যাটাগরিতে আপনার সেশনগুলো সুশৃঙ্খল রাখুন</string>
 
     <string name="unknown">অজানা</string>
+    <string name="lets_go">চলো শুরু করি!</string>
+    <string name="select_category">বিভাগ নির্বাচন করুন</string>
+    <string name="enter_a_script_title">স্ক্রিপ্টের শিরোনাম লিখুন..</string>
+    <string name="no_title">শিরোনাম নেই</string>
+    <string name="userscripts_not_allowed">ইউজার স্ক্রিপ্ট অনুমোদিত নয়</string>
+    <string name="failed_to_locate_the_element">উপাদান খুঁজে পাওয়া যায়নি</string>
+    <string name="a_new_change_detected">%1$s: নতুন পরিবর্তন সনাক্ত হয়েছে</string>
+
+    <plurals name="added_weblos">
+        <item quantity="one">%1$d ওয়েবলো যোগ করা হয়েছে</item>
+        <item quantity="other">%1$d ওয়েবলোস যোগ করা হয়েছে</item>
+    </plurals>
     <plurals name="moved_weblos">
         <item quantity="one">%1$d ওয়েবলো সরানো হয়েছে</item>
         <item quantity="other">%1$d ওয়েবলো সরানো হয়েছে</item>

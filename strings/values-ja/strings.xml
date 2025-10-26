@@ -331,14 +331,23 @@
 
     <string name="welcome_aboard">ようこそ</string>
     <string name="get_started_to_explore_the_magic_of_weblo">Webloの魅力を体験してみましょう</string>
-    <string name="start_fresh">新しく始める</string>
-    <string name="start_with_examples">サンプルで始める</string>
     <string name="customize_websites">ウェブサイトをカスタマイズする</string>
     <string name="use_powerful_tools_to_experience_the_web_as_you_always_wanted">強力なツールで、思いどおりのウェブ体験を実現しましょう</string>
     <string name="organize_sites">サイトを整理する</string>
     <string name="keep_your_sessions_organized_across_different_profile_and_categories">プロフィールやカテゴリごとにセッションを整理して管理できます</string>
 
     <string name="unknown">不明</string>
+    <string name="lets_go">行こう！</string>
+    <string name="select_category">カテゴリを選択</string>
+    <string name="enter_a_script_title">スクリプトタイトルを入力..</string>
+    <string name="no_title">タイトルなし</string>
+    <string name="userscripts_not_allowed">ユーザースクリプトは許可されていません</string>
+    <string name="failed_to_locate_the_element">要素が見つかりません</string>
+    <string name="a_new_change_detected">%1$s：新しい変更が検出されました</string>
+
+    <plurals name="added_weblos">
+        <item quantity="other">%1$d 個の weblo が追加されました</item>
+    </plurals>
     <plurals name="moved_weblos">
         <item quantity="other">%1$d 件のWebloを移動しました</item>
     </plurals>

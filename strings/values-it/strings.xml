@@ -331,14 +331,25 @@
 
     <string name="welcome_aboard">Benvenuto a bordo</string>
     <string name="get_started_to_explore_the_magic_of_weblo">Inizia per esplorare la magia di Weblo</string>
-    <string name="start_fresh">Inizia da capo</string>
-    <string name="start_with_examples">Inizia con esempi</string>
     <string name="customize_websites">Personalizza i siti web</string>
     <string name="use_powerful_tools_to_experience_the_web_as_you_always_wanted">Usa strumenti potenti per vivere il web come hai sempre voluto</string>
     <string name="organize_sites">Organizza i siti</string>
     <string name="keep_your_sessions_organized_across_different_profile_and_categories">Tieni le tue sessioni organizzate tra profili e categorie diverse</string>
 
     <string name="unknown">Sconosciuto</string>
+    <string name="lets_go">Andiamo!</string>
+    <string name="select_category">Seleziona categoria</string>
+    <string name="enter_a_script_title">Inserisci il titolo dello script..</string>
+    <string name="no_title">Nessun titolo</string>
+    <string name="userscripts_not_allowed">Userscript non consentiti</string>
+    <string name="failed_to_locate_the_element">Impossibile trovare l\'elemento</string>
+    <string name="a_new_change_detected">%1$s: è stata rilevata una nuova modifica</string>
+
+    <plurals name="added_weblos">
+        <item quantity="one">%1$d weblo aggiunto</item>
+        <item quantity="many">%1$d weblos aggiunti</item>
+        <item quantity="other">%1$d weblos aggiunti</item>
+    </plurals>
 
     <plurals name="moved_weblos">
         <item quantity="one">%1$d weblo spostato</item>
