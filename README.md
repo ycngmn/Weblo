@@ -1,12 +1,6 @@
 <h3 align="center">Weblo - Make the Web Yours, on Android</h3>
 <p align="center">A browser-shaped toolkit that lets you bend the internet to fit you.</p>
 
-
->[!IMPORTANT]
->**Weblo is out on BETA!** 🎉. <br>
-> Please fill out this quick form to join :
-> https://forms.gle/gDsxjPhNNA3oaXpcA
-
 > ### Disclaimer
 > Weblo **is not open source and is __currently under development__**. This GitHub repo is for bug reports, feature requests, translations, docs, and other non-code contributions only. Core app code is closed-source.
 
