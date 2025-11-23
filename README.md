@@ -1,3 +1,11 @@
+<p align="center">
+    <picture>
+       <source media="(prefers-color-scheme: dark)" srcset="./img/night/weblo_logo_n.png" width="250">
+       <img src="./img/weblo_logo_d.png" width="250" alt="weblo_logo">
+    </picture>
+</p>
+
+<p align="center"><a href="https://play.google.com/store/apps/details?id=com.ycngmn.weblo"><img src="./img/Google_Play_Store_badge_EN.svg" alt="Get_weblo_from_play_store"></a></p>
 <h3 align="center">Weblo - Make the Web Yours, on Android</h3>
 <p align="center">A browser-shaped toolkit that lets you bend the internet to fit you.</p>
 
@@ -5,18 +13,18 @@
 > Weblo **is not open source and is __currently under development__**. This GitHub repo is for bug reports, feature requests, translations, docs, and other non-code contributions only. Core app code is closed-source.
 
 <p align="center">
-<picture>
-   <source media="(prefers-color-scheme: dark)" srcset="./img/night/Screenshot_home.png" width="250">
-   <img src="./img/Screenshot_home.png" width="250" alt="weblo_home_screenshot">
-</picture>
-<picture>
-   <source media="(prefers-color-scheme: dark)" srcset="./img/night/Screenshot_config.png" width="250">
-   <img src="./img/Screenshot_config.png" width="250" alt="weblo_config_screenshot">
-</picture>
-<picture>
-   <source media="(prefers-color-scheme: dark)" srcset="./img/night/Screenshot_settings.png" width="250">
-   <img src="./img/Screenshot_settings.png" width="250" alt="weblo_settings_screenshot">
-</picture>
+    <picture>
+       <source media="(prefers-color-scheme: dark)" srcset="./img/night/Screenshot_home.png" width="250">
+       <img src="./img/Screenshot_home.png" width="250" alt="weblo_home_screenshot">
+    </picture>
+    <picture>
+       <source media="(prefers-color-scheme: dark)" srcset="./img/night/Screenshot_config.png" width="250">
+       <img src="./img/Screenshot_config.png" width="250" alt="weblo_config_screenshot">
+    </picture>
+    <picture>
+       <source media="(prefers-color-scheme: dark)" srcset="./img/night/Screenshot_settings.png" width="250">
+       <img src="./img/Screenshot_settings.png" width="250" alt="weblo_settings_screenshot">
+    </picture>
 </p>
 
 Weblo is built for people who want more control: block what you don’t need, automate with userscripts, keep pages offline, organize with profiles and categories, and inspect what’s really happening behind the scenes. Simple for everyday browsing, powerful when you want to dig deeper.
